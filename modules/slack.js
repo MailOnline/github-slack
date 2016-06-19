@@ -29,7 +29,7 @@ function pullRequest2Attachment(pr) {
     'title': pr._repo.name,
     'title_link': pr._repo.html_url,
 
-    'thumb_url': `http://mailonline.github.io/${pr._repo.name}/logo.png`,
+    'thumb_url': `http://${pr._repo.owner.login}.github.io/${pr._repo.name}/logo.png`,
     'text': `<${pr.html_url}|${pr.title}>\n` + pr.body.replace('BREAKING CHANGE', '*BREAKING CHANGE*'),
     'ts': Math.floor(created / 1000),
     'mrkdwn_in': ['pretext', 'text']
