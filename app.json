@@ -1,0 +1,17 @@
+{
+  "name": "A Slack Github PullRequests bot",
+  "description": "A bot that notifies Slack about open GitHub PRs",
+  "keywords": [
+    "slack",
+    "github"
+  ],
+  "repository": "https://github.com/massa84/github-slack",
+  "env": {
+    "GITHUB_ORGANISATION": {
+      "description": "Your Github organisation name"
+    },
+    "GITHUB_TOKEN": {
+      "description": "Your Github token (obtainable at https://github.com/settings/tokens)"
+    }
+  }
+}
