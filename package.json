@@ -7,14 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "6"
+    "node": "8"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "firebase": "^3.0.5",
+    "firebase": "^4.2.0",
     "github": "^1.1.0",
     "request": "^2.72.0"
   }

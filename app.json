@@ -5,13 +5,28 @@
     "slack",
     "github"
   ],
-  "repository": "https://github.com/massa84/github-slack",
+  "repository": "https://github.com/MailOnline/github-slack",
   "env": {
     "GITHUB_ORGANISATION": {
       "description": "Your Github organisation name"
     },
     "GITHUB_TOKEN": {
       "description": "Your Github token (obtainable at https://github.com/settings/tokens)"
+    },
+    "FIREBASE_API_KEY": {
+      "description": "Firebase api key"
+    },
+    "FIREBASE_PROJECT_ID": {
+      "description": "Firebase project id"
+    },
+    "FIREBASE_DATABASE_NAME": {
+      "description": "Firebase database name"
+    },
+    "FIREBASE_BUCKET": {
+      "description": "Firebase bucket"
+    },
+    "FIREBASE_SENDER_ID": {
+      "description": "Firebase sender id"      
     }
   }
 }
